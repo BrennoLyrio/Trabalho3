@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
 .button {
     background-color: #141414;
     color: white;
@@ -12,5 +14,55 @@ body {
 }
 
 .menu{
-    padding-top: 5rem;
+    padding-top: 12rem;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color: aqua;
+
+}
+
+.principal{
+    width: 75%;
+    height: 100%;
+    background-color: blue;
+    
+}
+
+.carousel-inner h1 {
+    color: rgb(150, 150, 150);
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    -webkit-text-stroke-color: #141414;
+    -webkit-text-stroke-width: 0.15rem;
+
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.conteudo h2{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.conteudo p{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+    color: azure;
+}
+
+.força {
+    text-align: center;
+    padding: 1rem;
+    font-family: "Anton", sans-serif;
 }
