@@ -5,58 +5,122 @@
 {% block content %}
 
 <div class="conteudo">
-    <h2>Oba</h2>
+    <h2>Sabres de Luz</h2>
+    <p> clique na imagem</p>
     <div class="lightsabers">
-        <p class="d-inline-flex gap-1">
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-                aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                aria-controls="multiCollapseExample2">Toggle second element</button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
-                aria-expanded="false" aria-controls="multiCollapseExample3">Toggle both
-                elements</button>
-        </p>
-        <div class="row">
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                    <div class="card card-body">
-                        Some placeholder content for the first collapse component of this multi-collapse example. This
-                        panel is hidden by default but revealed when the user activates the relevant trigger.
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="image-container">
+                        <a href="#verde"><img src="../static/images/verde.jpeg" alt="Imagem 1" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample1"></a>
+                        <a href="#roxo"><img src="../static/images/roxojpg.jpg" alt="Imagem 2" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample2"></a>
+                        <a href="#azul"><img src="../static/images/azul.jpg" alt="Imagem 3" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample3"></a>
+                        <a href="#vermelho"><img src="../static/images/vermelhojpg.jpg" alt="Imagem 4" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample4"></a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                    <div class="card card-body">
-                        Some placeholder content for the second collapse component of this multi-collapse example. This
-                        panel is hidden by default but revealed when the user activates the relevant trigger.
+            <div class="row">
+                <div class="col">
+                    <div class="image-container">
+                        <a href="#branco"><img src="../static/images/branco.jpg" alt="Imagem 5" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample5"></a>
+                        <a href="#amarelo"><img src="../static/images/amarelo.jpg" alt="Imagem 6" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample6"></a>
+                        <a href="#laranja"><img src="../static/images/laranja.jpg" alt="Imagem 7" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample7"></a>
+                        <a href="#preto"><img src="../static/images/preto.jpg" alt="Imagem 8" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample8"></a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample3">
-                    <div class="card card-body">
-                        Some placeholder content for the second collapse component of this multi-collapse example. This
-                        panel is hidden by default but revealed when the user activates the relevant trigger.
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <p class="d-inline-flex gap-1">
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Link with href
-            </a>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Link with hrefaa
-            </a>
-        </p>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body" id="verde">
+                    <h3>Sabre Verde</h3>
+                    <p>Associado à sabedoria, harmonia e equilíbrio na Força. Os portadores de sabres de luz verde são frequentemente vistos como mestres em conexão espiritual, buscando conhecimento e autodesenvolvimento enquanto defendem os ideais Jedi.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample1">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body" id="roxo">
+                    <h3>Sabre Roxo</h3>
+                    <p>Considerado uma fusão entre o lado da luz e o lado sombrio da Força. Os portadores de sabres de luz roxos geralmente são indivíduos que demonstram habilidades excepcionais em ambas as vertentes da Força, equilibrando poder e compaixão.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample2">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body" id="azul">
+                    <h3>Sabre Azul</h3>
+                    <p>Associado à coragem, lealdade e determinação. Os portadores de sabres de luz azuis são frequentemente vistos como defensores da justiça e da ordem, buscando proteger os inocentes e lutar contra a tirania.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample3">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample4">
+                <div class="card card-body" id="vermelho">
+                    <h3>Sabre Vemelho</h3>
+                    <p>Tradicionalmente associado aos Sith e ao lado sombrio da Força. Os portadores de sabres de luz vermelhos são geralmente indivíduos que sucumbiram à corrupção e ao ódio, buscando poder pessoal e dominação.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample4">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample5">
+                <div class="card card-body" id="branco">
+                    <h3>Sabre Branco</h3>
+                    <p>Representa a pureza e a neutralidade na Força. Os portadores de sabres de luz brancos frequentemente são vistos como guerreiros que rejeitaram as divisões entre os Jedi e os Sith, buscando um equilíbrio entre luz e sombra.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample5">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample6">
+                <div class="card card-body" id="amarelo">
+                    <h3>Sabre Amarelo</h3>
+                    <p>Associado à diligência, reflexão e cautela. Os portadores de sabres de luz amarelos são frequentemente vistos como estudiosos e investigadores, buscando compreender os mistérios da Força e proteger o conhecimento Jedi.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample6">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample7">
+                <div class="card card-body" id="laranja">
+                    <h3>Sabre Laranja</h3>
+                    <p>Representa a determinação e a paixão na busca pela verdade. Os portadores de sabres de luz laranjas são frequentemente indivíduos que demonstram uma forte convicção em seus propósitos e estão dispostos a desafiar convenções em nome da justiça.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample7">&times;</span>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample8">
+                <div class="card card-body" id="preto">
+                    <h3>Sabre Preto</h3>
+                    <p>Raramente visto na história Jedi, o sabre de luz preto é frequentemente associado à corrupção total pelo lado sombrio da Força. Os portadores de sabres de luz pretos são indivíduos que abandonaram completamente os ensinamentos Jedi, abraçando a escuridão e o poder absoluto.</p>
+                    <span class="close-button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample8">&times;</span>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    // Adiciona um evento de clique para cada imagem
+    document.querySelectorAll('.image-container img').forEach(function (img) {
+        img.addEventListener('click', function () {
+            // Fecha todos os colapsos
+            document.querySelectorAll('.collapse').forEach(function (collapse) {
+                collapse.classList.remove('show');
+            });
+            // Abre o colapso correspondente à imagem clicada
+            var target = this.getAttribute('data-bs-target');
+            var collapse = document.querySelector(target);
+            if (collapse) {
+                collapse.classList.add('show');
+            }
+        });
+    });
+</script>
 {% endblock %}
