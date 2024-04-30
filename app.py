@@ -13,5 +13,9 @@ def jedis():
 def lightsabers():
     return render_template("lightsabers.html")
 
+@app.route('/contatos')
+def contact():
+    return render_template("contatos.html")
+
 if __name__ == '__main__':
     app.run(debug = True)
