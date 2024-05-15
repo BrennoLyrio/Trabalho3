@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %} Exibir {% endblock %}
+
+
+{% block content %}
+<style>
+    li {
+        color: antiquewhite;
+        margin-top: 1rem;
+    }
+</style>
+
+<ul>
+    {% for comentario in trabdev4 %}
+            <li>
+                <strong>Email:</strong> {{ comentario['email'] }} <br>
+                <strong>Assunto:</strong> {{ comentario['assunto'] }} <br>
+                <strong>Escrito:</strong> {{ comentario['escrito'] }} <br>
+            </li>
+    {% endfor %}
+</ul>
+
+
+{%endblock content%}
