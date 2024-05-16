@@ -2,7 +2,7 @@ from flask import Flask, render_template, request,url_for, redirect
 from flask_mysqldb import MySQL
 import pymysql
 
-app = Flask('__name__')
+app = Flask("__name__,template_folder='template'")
 
 def create_connection():
     try:
