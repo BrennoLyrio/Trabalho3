@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request,url_for, redirect
-from flask_mysqldb import MySQL
 import pymysql
 
 app = Flask("__name__,template_folder='template'")
@@ -7,9 +6,9 @@ app = Flask("__name__,template_folder='template'")
 def create_connection():
     try:
         conn = pymysql.connect(
-            host='localhost',
+            host='db',
             user='root',
-            password='fatec',
+            password='root',
             database='trabdev4',
             cursorclass=pymysql.cursors.DictCursor
         )
